@@ -19,7 +19,7 @@ public class Card {
 		{
 		
 		case Club:
-			if ( getRank() == 1 )
+			if ( rank == 1 )
 			{
 				System.out.println("Club Ace");
 			}
