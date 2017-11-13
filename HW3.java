@@ -3,11 +3,13 @@ import java.util.HashMap;
 //import java.util.Scanner;
 
 /**
- * @author TODO: please add student ID and name here
+ * @author TODO: Student ID:B0344108 Name:鄭亞欣（ChengYaHsin）
  * Try to write some comments for your codes (methods, 10 points)
  */
 public class HW3 {
+	
 	public static void main(String[] args) {
+				
 		//Scanner sc = new Scanner(System.in);
 		//System.out.println("input N(deck of cards):");
 		//String testn= sc.nextLine(); 
@@ -82,7 +84,7 @@ public class HW3 {
 			}
 
 		}
-		if(checkHash.keySet().size()==52){
+		if(checkHash.keySet().size()==52||checkHash.keySet().size()==50){
 			for(int value:checkHash.values()){
 				if(value!=nDeck){
 					isCorrect=false;
